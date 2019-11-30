@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Verdana';
+}
+
+.section {
+  width: 100%;
+}
+
+.section-name {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.menu {
+  height: 40px;
+}
+
+.intro-block {
+  padding: 10px;
+  display: table;
+}
+
+.intro-image {
+  text-align: center;
+}
+
+.intro-text {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.bio-block {
+  padding: 10px;
+}
+
+.more-block {
+  padding: 10px;
+  display: table;
+}
+
+.more-image {
+  text-align: center;
+}
+
+.exp-block {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 10px;
+}
+
+.work-block {
+}
+
+.work-list {
+  padding: 0px 30px;
+  margin-bottom: 40px;
+}
+
+.work-item {
+  margin-bottom: 10px;
+}
+
+.hobby-block {
+}
+
+.hobby-list {
+  margin-top: 15px;
+  padding: 0px 30px;
+}
+
+.hobby-item {
+  margin-bottom: 10px;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 560px) {
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 561px) {
+  .intro-block {
+    width: 30%;
+  }
+  .bio-block {
+    width: 70%;
+  }
+  .more-block {
+    width: 30%;
+    padding: 30px 10px;
+  }
+  .exp-block {
+    width: 70%;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 1201px) {
+  .page {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .exp-block {
+  }
+  .work-block,
+  .hobby-block {
+    width: 50%;
+  }
+}
