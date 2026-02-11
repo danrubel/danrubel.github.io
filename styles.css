@@ -57,19 +57,16 @@
   padding: 0px 10px;
 }
 
-.work-block {
-}
-
-.work-list {
+.work-list,
+.current-list {
   padding: 0px 30px;
   margin-bottom: 40px;
 }
 
-.work-item {
+.work-item,
+.hobby-item,
+.current-item {
   margin-bottom: 10px;
-}
-
-.hobby-block {
 }
 
 .hobby-list {
@@ -77,36 +74,24 @@
   padding: 0px 30px;
 }
 
-.hobby-item {
-  margin-bottom: 10px;
-}
-
-.current-list {
-  padding: 0px 30px;
-  margin-bottom: 40px;
-}
-
-.current-item {
-  margin-bottom: 10px;
-}
-
 /* Mobile Styles */
-@media only screen and (max-width: 560px) {
-
-}
+@media only screen and (max-width: 560px) {}
 
 /* Tablet Styles */
 @media only screen and (min-width: 561px) {
   .intro-block {
     width: 30%;
   }
+
   .bio-block {
     width: 70%;
   }
+
   .more-block {
     width: 30%;
     padding: 30px 10px;
   }
+
   .exp-block {
     width: 70%;
   }
@@ -118,8 +103,9 @@
     width: 1200px;
     margin: 0 auto;
   }
-  .exp-block {
-  }
+
+  .exp-block {}
+
   .work-block,
   .hobby-block {
     width: 50%;
