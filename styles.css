@@ -81,6 +81,15 @@
   margin-bottom: 10px;
 }
 
+.current-list {
+  padding: 0px 30px;
+  margin-bottom: 40px;
+}
+
+.current-item {
+  margin-bottom: 10px;
+}
+
 /* Mobile Styles */
 @media only screen and (max-width: 560px) {
 
